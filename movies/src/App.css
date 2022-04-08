@@ -1,0 +1,72 @@
+.navbar{
+       background: linear-gradient(to right, #2e3434, #5e6c6b, #7e878f, #aeb9b9);
+
+}
+.card:hover{
+  cursor: pointer;
+    transform: scale(1.05);
+transition-duration: 0.4s;
+  }
+.card{
+  height:450px;
+  
+}
+  .image{
+    height: 270px
+  }
+  .trendImage{
+    height: 450px
+  }
+.pagination{
+
+  margin-left: 700px;
+}
+.upcomingHover:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+transition-duration: 0.4s;
+  }
+
+  
+  .bg-white{
+  align-items: center;
+  }
+
+  .banner-card {
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+  position: relative;
+  height: 70vh;
+  color: white;
+}
+.banner-img {
+  height: 70vh;
+  width: 100%;
+object-fit: cover
+}
+.banner-title {
+  position: absolute;
+  top: 45vh;
+  left: 5vw;
+}
+.banner-release{
+  position: absolute;
+  top: 45vh;
+  left: 70vw;
+}
+.banner-text {
+  position: absolute;
+  top: 55vh;
+  left: 5vw;
+  height: 4.5rem;
+  overflow: hidden;
+  margin-right: 5vw;
+}
+
+.seeInfo{
+  height: 100vh;
+  width: 40%;
+}
+.seeinfoImg{
+  height: 60vh;
+}
